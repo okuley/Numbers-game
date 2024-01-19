@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Correct!", Toast.LENGTH_SHORT).show();
         } else {
             points--;
-            Toast.makeText(this, "You are STUPID.", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Incorrect!.", Toast.LENGTH_SHORT).show();
         }
         TextView pointsView = (TextView) findViewById(R.id.textView3);
         pointsView.setText("Points: " + points);
